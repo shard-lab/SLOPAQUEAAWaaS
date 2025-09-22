@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SLOPAQUEAAWaaS_Example' do
+  pod 'SLOPAQUEAAWaaS', :path => '../'
+
+  target 'SLOPAQUEAAWaaS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
