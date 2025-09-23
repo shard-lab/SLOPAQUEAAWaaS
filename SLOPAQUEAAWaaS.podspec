@@ -21,17 +21,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Klaus Moon/SLOPAQUEAAWaaS'
+  s.homepage         = 'https://github.com/shard-lab/SLOPAQUEAAWaaS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Klaus Moon' => 'klausmoon.michael@gmail.com' }
-  s.source           = { :git => 'https://github.com/Klaus Moon/SLOPAQUEAAWaaS.git', :tag => s.version.to_s }
+  s.author           = { 'Klaus Moon' => 'contact@shardlab.com' }
+  s.source           = { :git => 'https://github.com/shard-lab/SLOPAQUEAAWaaS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SLOPAQUEAAWaaS/Classes/**/*'
-  
+  s.vendored_frameworks = 'SLOPAQUEAAWaaS/Frameworks/universal-ios/release/OPAQUEAAWaaSModule.framework' 
+  s.preserve_path = 'SLOPAQUEAAWaaS/Frameworks'
   # s.resource_bundles = {
   #   'SLOPAQUEAAWaaS' => ['SLOPAQUEAAWaaS/Assets/*.png']
   # }

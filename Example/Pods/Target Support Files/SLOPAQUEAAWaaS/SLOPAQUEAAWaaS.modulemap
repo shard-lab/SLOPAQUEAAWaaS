@@ -1,0 +1,6 @@
+framework module SLOPAQUEAAWaaS {
+  umbrella header "SLOPAQUEAAWaaS-umbrella.h"
+
+  export *
+  module * { export * }
+}
