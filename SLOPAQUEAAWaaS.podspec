@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SLOPAQUEAAWaaS'
-  s.version          = '0.1.4'
+  s.version          = '0.2.0'
   s.summary          = 'OPAQUE AA WaaS by ShardLab'
   s.swift_versions   = '5.0'
 
@@ -23,23 +23,13 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/shard-lab/SLOPAQUEAAWaaS'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Klaus Moon' => 'contact@shardlab.com' }
   s.source           = { :git => 'https://github.com/shard-lab/SLOPAQUEAAWaaS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SLOPAQUEAAWaaS/Classes/**/*'
-  s.vendored_frameworks = 'SLOPAQUEAAWaaS/Frameworks/OPAQUEAAWaaSModule.xcframework'  
-  # s.preserve_path = 'SLOPAQUEAAWaaS/Frameworks'
-  
-  # s.resource_bundles = sss
-  #   'SLOPAQUEAAWaaS' => ['SLOPAQUEAAWaaS/Assets/*.png']
-  # }
+  s.vendored_frameworks = 'SLOPAQUEAAWaaS/Frameworks/SLAAWaaS.xcframework'  
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

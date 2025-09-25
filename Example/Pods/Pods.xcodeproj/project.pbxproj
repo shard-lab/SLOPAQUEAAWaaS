@@ -47,6 +47,7 @@
 		3EEA93DA1470D1C2B0FAC13AA7DDBE81 /* Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		464AE35E7D06C271FDBE5C4F92A4B4F4 /* Pods-SLOPAQUEAAWaaS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLOPAQUEAAWaaS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4AC70A4C8D195CD3768CC9E9D10936F1 /* Pods-SLOPAQUEAAWaaS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLOPAQUEAAWaaS_Example.modulemap"; sourceTree = "<group>"; };
+		4B905680861B91FA708F1628D9ECEE1A /* SLAAWaaS.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SLAAWaaS.xcframework; path = SLOPAQUEAAWaaS/Frameworks/SLAAWaaS.xcframework; sourceTree = "<group>"; };
 		5696B24F26EE0687C017A2B2993E3F19 /* SLOPAQUEWaaS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SLOPAQUEWaaS.swift; path = SLOPAQUEAAWaaS/Classes/SLOPAQUEWaaS.swift; sourceTree = "<group>"; };
 		58FC30885BB133D3EE7DA96F8BD62586 /* Pods-SLOPAQUEAAWaaS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLOPAQUEAAWaaS_Tests-Info.plist"; sourceTree = "<group>"; };
 		62C3D78CC35838A56952C671B9E34033 /* Pods-SLOPAQUEAAWaaS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SLOPAQUEAAWaaS_Tests"; path = Pods_SLOPAQUEAAWaaS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,7 +69,6 @@
 		DC3FD92330C08FEE210A0B2AA252C4F9 /* Pods-SLOPAQUEAAWaaS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLOPAQUEAAWaaS_Tests.modulemap"; sourceTree = "<group>"; };
 		DD5C62A1EF52CB99ECE6FFC2F7343B7F /* Pods-SLOPAQUEAAWaaS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLOPAQUEAAWaaS_Example-umbrella.h"; sourceTree = "<group>"; };
 		E1D1A0510C82D8ED0A613DAD77033C2D /* Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E873E6019D0109E153357BD5B9733BB8 /* OPAQUEAAWaaSModule.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OPAQUEAAWaaSModule.xcframework; path = SLOPAQUEAAWaaS/Frameworks/OPAQUEAAWaaSModule.xcframework; sourceTree = "<group>"; };
 		E9D9B1102EA250D479812B8D03ADC675 /* Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F7515D9C8224715FE3B77BEA4644FA1E /* SLOPAQUEAAWaaS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SLOPAQUEAAWaaS-Info.plist"; sourceTree = "<group>"; };
 		FCC5FD1A6A42610FC1CBAE3259E766D3 /* Pods-SLOPAQUEAAWaaS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLOPAQUEAAWaaS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -102,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11287914FF3E53BBE7DCD9C962667275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B905680861B91FA708F1628D9ECEE1A /* SLAAWaaS.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3148610C364CA1D6BDE18DF68387BF5D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,7 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				5696B24F26EE0687C017A2B2993E3F19 /* SLOPAQUEWaaS.swift */,
-				B01D5112D4FBEEEBAD6FA39263CD6B2E /* Frameworks */,
+				11287914FF3E53BBE7DCD9C962667275 /* Frameworks */,
 				77981177567C907DDC54854CC65C62FA /* Pod */,
 				846C06C2FA507C5870D8316327D2AD0D /* Support Files */,
 			);
@@ -174,14 +182,6 @@
 				710F455BB7B6692C0050814BE05C64BD /* SLOPAQUEAAWaaS */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B01D5112D4FBEEEBAD6FA39263CD6B2E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E873E6019D0109E153357BD5B9733BB8 /* OPAQUEAAWaaSModule.xcframework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B0A385DD3EDAFFFFB3D2CAD4C3500762 /* Pods-SLOPAQUEAAWaaS_Tests */ = {
@@ -289,7 +289,7 @@
 			buildConfigurationList = 3AB111CBF726509B9715434F8278EE68 /* Build configuration list for PBXNativeTarget "SLOPAQUEAAWaaS" */;
 			buildPhases = (
 				FCE61A88656EFCA8A3F780AF293C80E7 /* Headers */,
-				0978A6EB6EEB1E45E73AFCC7FF0C8288 /* [CP] Copy XCFrameworks */,
+				5531FDD927AE809D878AAE12AEC45324 /* [CP] Copy XCFrameworks */,
 				8008691436315F818ACC329C68ABB5EF /* Sources */,
 				FC34EA05B11B4EA7B59B198F87A7A1A4 /* Frameworks */,
 				C656279828CB501698B880302FDEA763 /* Resources */,
@@ -378,18 +378,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0978A6EB6EEB1E45E73AFCC7FF0C8288 /* [CP] Copy XCFrameworks */ = {
+		5531FDD927AE809D878AAE12AEC45324 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/SLOPAQUEAAWaaS/SLOPAQUEAAWaaS-xcframeworks.sh",
-				"${PODS_ROOT}/../../SLOPAQUEAAWaaS/Frameworks/OPAQUEAAWaaSModule.xcframework",
+				"${PODS_ROOT}/../../SLOPAQUEAAWaaS/Frameworks/SLAAWaaS.xcframework",
 			);
 			name = "[CP] Copy XCFrameworks";
 			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SLOPAQUEAAWaaS/OPAQUEAAWaaSModule.framework",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SLOPAQUEAAWaaS/SLAAWaaS.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

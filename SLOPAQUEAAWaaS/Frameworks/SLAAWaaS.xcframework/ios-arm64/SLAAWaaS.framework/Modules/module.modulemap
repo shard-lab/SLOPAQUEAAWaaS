@@ -1,0 +1,8 @@
+framework module SLAAWaaS {
+    umbrella header "SLAAWaaS.h"
+//    header "SwiftBridgeCore.h"
+//    header "opaque-aawaas.h"
+    
+    export *
+    module * { export * }
+}

@@ -17,14 +17,11 @@ RSYNC_PROTECT_TMP_FILES=(--filter "P .*.??????")
 variant_for_slice()
 {
   case "$1" in
-  "OPAQUEAAWaaSModule.xcframework/ios-arm64")
+  "SLAAWaaS.xcframework/ios-arm64")
     echo ""
     ;;
-  "OPAQUEAAWaaSModule.xcframework/ios-arm64_x86_64-simulator")
+  "SLAAWaaS.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
-    ;;
-  "OPAQUEAAWaaSModule.xcframework/macos-arm64_x86_64")
-    echo ""
     ;;
   esac
 }
@@ -32,13 +29,10 @@ variant_for_slice()
 archs_for_slice()
 {
   case "$1" in
-  "OPAQUEAAWaaSModule.xcframework/ios-arm64")
+  "SLAAWaaS.xcframework/ios-arm64")
     echo "arm64"
     ;;
-  "OPAQUEAAWaaSModule.xcframework/ios-arm64_x86_64-simulator")
-    echo "arm64 x86_64"
-    ;;
-  "OPAQUEAAWaaSModule.xcframework/macos-arm64_x86_64")
+  "SLAAWaaS.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
   esac
@@ -123,5 +117,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../SLOPAQUEAAWaaS/Frameworks/OPAQUEAAWaaSModule.xcframework" "SLOPAQUEAAWaaS" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../SLOPAQUEAAWaaS/Frameworks/SLAAWaaS.xcframework" "SLOPAQUEAAWaaS" "framework" "ios-arm64" "ios-arm64_x86_64-simulator"
 
