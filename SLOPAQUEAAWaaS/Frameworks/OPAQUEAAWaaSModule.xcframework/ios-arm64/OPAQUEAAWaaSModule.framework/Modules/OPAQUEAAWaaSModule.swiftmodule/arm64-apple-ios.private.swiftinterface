@@ -1,0 +1,289 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios18.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OPAQUEAAWaaSModule
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import Foundation
+import OPAQUEAAWaaS
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public func swift_hello() -> Swift.String
+extension OPAQUEAAWaaSModule.RustString {
+  public func toString() -> Swift.String
+}
+extension OPAQUEAAWaaS.RustStr {
+  public func toString() -> Swift.String
+}
+extension OPAQUEAAWaaS.RustStr : Swift.Identifiable {
+  public var id: Swift.String {
+    get
+  }
+  public typealias ID = Swift.String
+}
+extension OPAQUEAAWaaS.RustStr : Swift.Equatable {
+  public static func == (lhs: OPAQUEAAWaaS.RustStr, rhs: OPAQUEAAWaaS.RustStr) -> Swift.Bool
+}
+public protocol IntoRustString {
+  func intoRustString() -> OPAQUEAAWaaSModule.RustString
+}
+extension Swift.String : OPAQUEAAWaaSModule.IntoRustString {
+  public func intoRustString() -> OPAQUEAAWaaSModule.RustString
+}
+extension OPAQUEAAWaaSModule.RustString : OPAQUEAAWaaSModule.IntoRustString {
+  public func intoRustString() -> OPAQUEAAWaaSModule.RustString
+}
+public protocol ToRustStr {
+  func toRustStr<T>(_ withUnsafeRustStr: (OPAQUEAAWaaS.RustStr) -> T) -> T
+}
+extension Swift.String : OPAQUEAAWaaSModule.ToRustStr {
+  public func toRustStr<T>(_ withUnsafeRustStr: (OPAQUEAAWaaS.RustStr) -> T) -> T
+}
+extension OPAQUEAAWaaS.RustStr : OPAQUEAAWaaSModule.ToRustStr {
+  public func toRustStr<T>(_ withUnsafeRustStr: (OPAQUEAAWaaS.RustStr) -> T) -> T
+}
+public class RustVec<T> where T : OPAQUEAAWaaSModule.Vectorizable {
+  public init(ptr: Swift.UnsafeMutableRawPointer)
+  public init()
+  public func push(value: T)
+  public func pop() -> Swift.Optional<T>
+  public func get(index: Swift.UInt) -> Swift.Optional<T.SelfRef>
+  public func as_ptr() -> Swift.UnsafePointer<T.SelfRef>
+  public func len() -> Swift.Int
+  @objc deinit
+}
+extension OPAQUEAAWaaSModule.RustVec : Swift.Sequence {
+  public func makeIterator() -> OPAQUEAAWaaSModule.RustVecIterator<T>
+  public typealias Element = T.SelfRef
+  public typealias Iterator = OPAQUEAAWaaSModule.RustVecIterator<T>
+}
+public struct RustVecIterator<T> : Swift.IteratorProtocol where T : OPAQUEAAWaaSModule.Vectorizable {
+  public mutating func next() -> T.SelfRef?
+  public typealias Element = T.SelfRef
+}
+extension OPAQUEAAWaaSModule.RustVec : Swift.Collection {
+  public typealias Index = Swift.Int
+  public func index(after i: Swift.Int) -> Swift.Int
+  public subscript(position: Swift.Int) -> T.SelfRef {
+    get
+  }
+  public var startIndex: Swift.Int {
+    get
+  }
+  public var endIndex: Swift.Int {
+    get
+  }
+  public typealias Indices = Swift.Range<OPAQUEAAWaaSModule.RustVec<T>.Index>
+  public typealias SubSequence = Swift.Slice<OPAQUEAAWaaSModule.RustVec<T>>
+}
+extension OPAQUEAAWaaSModule.RustVec : Swift.RandomAccessCollection {
+}
+public protocol Vectorizable {
+  associatedtype SelfRef
+  associatedtype SelfRefMut
+  static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Self)
+  static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Self>
+  static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Self.SelfRef>
+  static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Self.SelfRefMut>
+  static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Self.SelfRef>
+  static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+}
+extension Swift.UInt8 : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.UInt8)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.UInt8>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.UInt8>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.UInt8>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.UInt8>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.UInt8
+  public typealias SelfRefMut = Swift.UInt8
+}
+extension Swift.UInt16 : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.UInt16)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.UInt16>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.UInt16>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.UInt16>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.UInt16>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.UInt16
+  public typealias SelfRefMut = Swift.UInt16
+}
+extension Swift.UInt32 : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.UInt32)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.UInt32>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.UInt32>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.UInt32>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.UInt32>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.UInt32
+  public typealias SelfRefMut = Swift.UInt32
+}
+extension Swift.UInt64 : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.UInt64)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.UInt64>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.UInt64>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.UInt64>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.UInt64>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.UInt64
+  public typealias SelfRefMut = Swift.UInt64
+}
+extension Swift.UInt : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.UInt)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.UInt>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.UInt>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.UInt>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.UInt>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.UInt
+  public typealias SelfRefMut = Swift.UInt
+}
+extension Swift.Int8 : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.Int8)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.Int8>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Int8>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Int8>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.Int8>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.Int8
+  public typealias SelfRefMut = Swift.Int8
+}
+extension Swift.Int16 : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.Int16)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.Int16>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Int16>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Int16>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.Int16>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.Int16
+  public typealias SelfRefMut = Swift.Int16
+}
+extension Swift.Int32 : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.Int32)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.Int32>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Int32>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Int32>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.Int32>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.Int32
+  public typealias SelfRefMut = Swift.Int32
+}
+extension Swift.Int64 : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.Int64)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.Int64>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Int64>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Int64>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.Int64>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.Int64
+  public typealias SelfRefMut = Swift.Int64
+}
+extension Swift.Int : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.Int)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.Int>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Int>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Int>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.Int>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.Int
+  public typealias SelfRefMut = Swift.Int
+}
+extension Swift.Bool : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.Bool)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.Bool>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Bool>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Bool>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.Bool>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.Bool
+  public typealias SelfRefMut = Swift.Bool
+}
+extension Swift.Float : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.Float)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.Float>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Float>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Float>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.Float>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.Float
+  public typealias SelfRefMut = Swift.Float
+}
+extension Swift.Double : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: Swift.Double)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Swift.Double>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Double>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<Swift.Double>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<Swift.Double>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = Swift.Double
+  public typealias SelfRefMut = Swift.Double
+}
+@_inheritsConvenienceInitializers public class RustString : OPAQUEAAWaaSModule.RustStringRefMut {
+  override public init(ptr: Swift.UnsafeMutableRawPointer)
+  @objc deinit
+}
+extension OPAQUEAAWaaSModule.RustString {
+  convenience public init()
+  convenience public init<GenericToRustStr>(_ str: GenericToRustStr) where GenericToRustStr : OPAQUEAAWaaSModule.ToRustStr
+}
+@_inheritsConvenienceInitializers public class RustStringRefMut : OPAQUEAAWaaSModule.RustStringRef {
+  override public init(ptr: Swift.UnsafeMutableRawPointer)
+  @objc deinit
+}
+public class RustStringRef {
+  public init(ptr: Swift.UnsafeMutableRawPointer)
+  @objc deinit
+}
+extension OPAQUEAAWaaSModule.RustStringRef {
+  public func len() -> Swift.UInt
+  public func as_str() -> OPAQUEAAWaaS.RustStr
+  public func trim() -> OPAQUEAAWaaS.RustStr
+}
+extension OPAQUEAAWaaSModule.RustString : OPAQUEAAWaaSModule.Vectorizable {
+  public static func vecOfSelfNew() -> Swift.UnsafeMutableRawPointer
+  public static func vecOfSelfFree(vecPtr: Swift.UnsafeMutableRawPointer)
+  public static func vecOfSelfPush(vecPtr: Swift.UnsafeMutableRawPointer, value: OPAQUEAAWaaSModule.RustString)
+  public static func vecOfSelfPop(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.Optional<Self>
+  public static func vecOfSelfGet(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<OPAQUEAAWaaSModule.RustStringRef>
+  public static func vecOfSelfGetMut(vecPtr: Swift.UnsafeMutableRawPointer, index: Swift.UInt) -> Swift.Optional<OPAQUEAAWaaSModule.RustStringRefMut>
+  public static func vecOfSelfAsPtr(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UnsafePointer<OPAQUEAAWaaSModule.RustStringRef>
+  public static func vecOfSelfLen(vecPtr: Swift.UnsafeMutableRawPointer) -> Swift.UInt
+  public typealias SelfRef = OPAQUEAAWaaSModule.RustStringRef
+  public typealias SelfRefMut = OPAQUEAAWaaSModule.RustStringRefMut
+}
+@_hasMissingDesignatedInitializers public class __private__RustFnOnceCallbackNoArgsNoRet {
+  @objc deinit
+}
+public enum RustResult<T, E> {
+  case Ok(T)
+  case Err(E)
+}
+public func hello_rust() -> OPAQUEAAWaaSModule.RustString

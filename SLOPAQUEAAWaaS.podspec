@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SLOPAQUEAAWaaS'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'OPAQUE AA WaaS by ShardLab'
   s.swift_versions   = '5.0'
 
@@ -32,9 +32,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'SLOPAQUEAAWaaS/Classes/**/*'
-  s.vendored_frameworks = 'SLOPAQUEAAWaaS/Frameworks/universal-ios/release/OPAQUEAAWaaSModule.framework' 
+  s.vendored_frameworks = 'SLOPAQUEAAWaaS/Frameworks/OPAQUEAAWaaSModule.xcframework'  
   s.preserve_path = 'SLOPAQUEAAWaaS/Frameworks'
-  # s.resource_bundles = {
+  
+  # s.resource_bundles = sss
   #   'SLOPAQUEAAWaaS' => ['SLOPAQUEAAWaaS/Assets/*.png']
   # }
 
