@@ -1,5 +1,4 @@
 import XCTest
-import SLOPAQUEAAWaaS
 
 class Tests: XCTestCase {
     

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SLOPAQUEAAWaaS'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'OPAQUE AA WaaS by ShardLab'
   s.swift_versions   = '5.0'
 
@@ -29,7 +29,6 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'SLOPAQUEAAWaaS/Classes/**/*'
   s.vendored_frameworks = 'SLOPAQUEAAWaaS/Frameworks/SLAAWaaS.xcframework'  
 
 end

@@ -7,14 +7,14 @@
 //
 
 import UIKit
-import SLOPAQUEAAWaaS
+import SLAAWaaS
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print(swift_hello())
+        print(hello_rust().toString())
     }
 
     override func didReceiveMemoryWarning() {

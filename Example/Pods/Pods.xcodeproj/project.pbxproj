@@ -6,71 +6,73 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		207E84CEE44587C86E980A8DDF7279AE /* SLOPAQUEAAWaaS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FFF7DADE6249CFBA2D4761ADD005BC5E /* Build configuration list for PBXAggregateTarget "SLOPAQUEAAWaaS" */;
+			buildPhases = (
+				8077F8D0968E3A68F7CF6CC6CF6181B2 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = SLOPAQUEAAWaaS;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		0D99F702BEA664FD7754C4673B28A372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		3B3938F405E6CBA6A9A0AF28FF9132DE /* Pods-SLOPAQUEAAWaaS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7683D93F66931A65E01E59F5336243D6 /* Pods-SLOPAQUEAAWaaS_Example-dummy.m */; };
 		4A9AABE3A42D1FBD35FF092FB0A8FF14 /* Pods-SLOPAQUEAAWaaS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD5C62A1EF52CB99ECE6FFC2F7343B7F /* Pods-SLOPAQUEAAWaaS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C18AF9B03627500EBB43C1105133AFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		685514CA94A4A43CA43355B79D8F5AB5 /* SLOPAQUEAAWaaS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1119296D53B34C95FD21A0B630DF49EC /* SLOPAQUEAAWaaS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9019D4807AC922CD63AAD89FA03B98BD /* Pods-SLOPAQUEAAWaaS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F35712E263525E526136826BEE14842 /* Pods-SLOPAQUEAAWaaS_Tests-dummy.m */; };
-		ADD2CB665704C74AD4CCDFAC62B4FC1E /* SLOPAQUEWaaS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5696B24F26EE0687C017A2B2993E3F19 /* SLOPAQUEWaaS.swift */; };
-		B1FD3BB2D4001B58C9831FED6A5CF9B4 /* SLOPAQUEAAWaaS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7898A287500DDB7C52E3BABD79800FF0 /* SLOPAQUEAAWaaS-dummy.m */; };
 		C04D3AD36145F89B9EEF46D4972F8B1C /* Pods-SLOPAQUEAAWaaS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D91A746AC14062C289782A7739A3468E /* Pods-SLOPAQUEAAWaaS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF025CAF9914267C4C5FC184A0B7EAF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		483983FC6874639F06390D4250AAB50F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0ECDCE9E40D7B6CEBA0CABCA4A328E8E;
-			remoteInfo = "Pods-SLOPAQUEAAWaaS_Example";
-		};
-		6E90B43DA9808DA730CFDD18AD77B3C0 /* PBXContainerItemProxy */ = {
+		91B684FD067C764ABA23DFF71A41C571 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 207E84CEE44587C86E980A8DDF7279AE;
 			remoteInfo = SLOPAQUEAAWaaS;
 		};
+		E5AA61875D7D7EAFB66A9CB4463871A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0ECDCE9E40D7B6CEBA0CABCA4A328E8E;
+			remoteInfo = "Pods-SLOPAQUEAAWaaS_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C7307A351A8333EFBD8DD004E8C35D2 /* SLOPAQUEAAWaaS-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SLOPAQUEAAWaaS-xcframeworks.sh"; sourceTree = "<group>"; };
-		1119296D53B34C95FD21A0B630DF49EC /* SLOPAQUEAAWaaS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLOPAQUEAAWaaS-umbrella.h"; sourceTree = "<group>"; };
+		0B4FF907661B7885D30914BB69F2D37B /* SLOPAQUEAAWaaS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLOPAQUEAAWaaS.debug.xcconfig; sourceTree = "<group>"; };
+		12FC20E197D816D263233FAF3F39CF06 /* SLOPAQUEAAWaaS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SLOPAQUEAAWaaS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		196220068D101AE6B441F0CE6FB90596 /* Pods-SLOPAQUEAAWaaS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SLOPAQUEAAWaaS_Example"; path = Pods_SLOPAQUEAAWaaS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26DDF487FC02366156ADF8CC8876207E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2F35712E263525E526136826BEE14842 /* Pods-SLOPAQUEAAWaaS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLOPAQUEAAWaaS_Tests-dummy.m"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3AD12BA74B678A49EA43DAD6BFEB2987 /* Pods-SLOPAQUEAAWaaS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLOPAQUEAAWaaS_Example-Info.plist"; sourceTree = "<group>"; };
 		3EEA93DA1470D1C2B0FAC13AA7DDBE81 /* Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		464AE35E7D06C271FDBE5C4F92A4B4F4 /* Pods-SLOPAQUEAAWaaS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLOPAQUEAAWaaS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4AC70A4C8D195CD3768CC9E9D10936F1 /* Pods-SLOPAQUEAAWaaS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLOPAQUEAAWaaS_Example.modulemap"; sourceTree = "<group>"; };
-		4B905680861B91FA708F1628D9ECEE1A /* SLAAWaaS.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SLAAWaaS.xcframework; path = SLOPAQUEAAWaaS/Frameworks/SLAAWaaS.xcframework; sourceTree = "<group>"; };
-		5696B24F26EE0687C017A2B2993E3F19 /* SLOPAQUEWaaS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SLOPAQUEWaaS.swift; path = SLOPAQUEAAWaaS/Classes/SLOPAQUEWaaS.swift; sourceTree = "<group>"; };
 		58FC30885BB133D3EE7DA96F8BD62586 /* Pods-SLOPAQUEAAWaaS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLOPAQUEAAWaaS_Tests-Info.plist"; sourceTree = "<group>"; };
 		62C3D78CC35838A56952C671B9E34033 /* Pods-SLOPAQUEAAWaaS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SLOPAQUEAAWaaS_Tests"; path = Pods_SLOPAQUEAAWaaS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DEAAA04FB23D1E41E2A00942C49FE82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		710F455BB7B6692C0050814BE05C64BD /* SLOPAQUEAAWaaS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SLOPAQUEAAWaaS; path = SLOPAQUEAAWaaS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		724266557A516E61519387B37A60DC26 /* Pods-SLOPAQUEAAWaaS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SLOPAQUEAAWaaS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		764F51668C8454C4AE9008BAE82A5BD9 /* Pods-SLOPAQUEAAWaaS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SLOPAQUEAAWaaS_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7683D93F66931A65E01E59F5336243D6 /* Pods-SLOPAQUEAAWaaS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SLOPAQUEAAWaaS_Example-dummy.m"; sourceTree = "<group>"; };
-		780D52589404FB6A72D064338B5CCB86 /* SLOPAQUEAAWaaS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SLOPAQUEAAWaaS-prefix.pch"; sourceTree = "<group>"; };
-		7898A287500DDB7C52E3BABD79800FF0 /* SLOPAQUEAAWaaS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SLOPAQUEAAWaaS-dummy.m"; sourceTree = "<group>"; };
 		83820751AD16795FE04273253CFE104D /* Pods-SLOPAQUEAAWaaS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOPAQUEAAWaaS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9010A5EA4F1358A21D352873437B54E0 /* SLOPAQUEAAWaaS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SLOPAQUEAAWaaS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A5A75E907062DC96A443D6BB104BE00 /* SLOPAQUEAAWaaS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SLOPAQUEAAWaaS.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6514D0A650D5248D3F7017120D7782A /* SLOPAQUEAAWaaS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLOPAQUEAAWaaS.release.xcconfig; sourceTree = "<group>"; };
+		B6A771BBC6ED83446AFB3755FF48C526 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B97B8C9A5C2DBE6A1FF334B514B722C4 /* Pods-SLOPAQUEAAWaaS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLOPAQUEAAWaaS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF9CFB925A47473BFF3890A27195DCDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D91A746AC14062C289782A7739A3468E /* Pods-SLOPAQUEAAWaaS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLOPAQUEAAWaaS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DA427CB6EA305B5773955D3D9A9CA0E8 /* SLOPAQUEAAWaaS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLOPAQUEAAWaaS.debug.xcconfig; sourceTree = "<group>"; };
 		DC3FD92330C08FEE210A0B2AA252C4F9 /* Pods-SLOPAQUEAAWaaS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SLOPAQUEAAWaaS_Tests.modulemap"; sourceTree = "<group>"; };
 		DD5C62A1EF52CB99ECE6FFC2F7343B7F /* Pods-SLOPAQUEAAWaaS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SLOPAQUEAAWaaS_Example-umbrella.h"; sourceTree = "<group>"; };
 		E1D1A0510C82D8ED0A613DAD77033C2D /* Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E95CB12CEF3508A87EFAA1A0C7EACB46 /* SLAAWaaS.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = SLAAWaaS.xcframework; path = SLOPAQUEAAWaaS/Frameworks/SLAAWaaS.xcframework; sourceTree = "<group>"; };
 		E9D9B1102EA250D479812B8D03ADC675 /* Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F7515D9C8224715FE3B77BEA4644FA1E /* SLOPAQUEAAWaaS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SLOPAQUEAAWaaS-Info.plist"; sourceTree = "<group>"; };
+		ECB24AEDD34098D67914A219596F7653 /* SLOPAQUEAAWaaS-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SLOPAQUEAAWaaS-xcframeworks.sh"; sourceTree = "<group>"; };
+		F890287FFA74278736109079527088D9 /* SLOPAQUEAAWaaS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SLOPAQUEAAWaaS.release.xcconfig; sourceTree = "<group>"; };
 		FCC5FD1A6A42610FC1CBAE3259E766D3 /* Pods-SLOPAQUEAAWaaS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SLOPAQUEAAWaaS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,25 +93,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC34EA05B11B4EA7B59B198F87A7A1A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C18AF9B03627500EBB43C1105133AFA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11287914FF3E53BBE7DCD9C962667275 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4B905680861B91FA708F1628D9ECEE1A /* SLAAWaaS.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3148610C364CA1D6BDE18DF68387BF5D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,52 +122,61 @@
 			path = "Target Support Files/Pods-SLOPAQUEAAWaaS_Example";
 			sourceTree = "<group>";
 		};
-		77981177567C907DDC54854CC65C62FA /* Pod */ = {
+		51872A80042849D020E743070F612C5B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DEAAA04FB23D1E41E2A00942C49FE82 /* LICENSE */,
-				26DDF487FC02366156ADF8CC8876207E /* README.md */,
-				9010A5EA4F1358A21D352873437B54E0 /* SLOPAQUEAAWaaS.podspec */,
+				196220068D101AE6B441F0CE6FB90596 /* Pods-SLOPAQUEAAWaaS_Example */,
+				62C3D78CC35838A56952C671B9E34033 /* Pods-SLOPAQUEAAWaaS_Tests */,
 			);
-			name = Pod;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		846C06C2FA507C5870D8316327D2AD0D /* Support Files */ = {
+		55E37CC0429495045F430541F8F6C56E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9A5A75E907062DC96A443D6BB104BE00 /* SLOPAQUEAAWaaS.modulemap */,
-				7898A287500DDB7C52E3BABD79800FF0 /* SLOPAQUEAAWaaS-dummy.m */,
-				F7515D9C8224715FE3B77BEA4644FA1E /* SLOPAQUEAAWaaS-Info.plist */,
-				780D52589404FB6A72D064338B5CCB86 /* SLOPAQUEAAWaaS-prefix.pch */,
-				1119296D53B34C95FD21A0B630DF49EC /* SLOPAQUEAAWaaS-umbrella.h */,
-				0C7307A351A8333EFBD8DD004E8C35D2 /* SLOPAQUEAAWaaS-xcframeworks.sh */,
-				DA427CB6EA305B5773955D3D9A9CA0E8 /* SLOPAQUEAAWaaS.debug.xcconfig */,
-				A6514D0A650D5248D3F7017120D7782A /* SLOPAQUEAAWaaS.release.xcconfig */,
+				E95CB12CEF3508A87EFAA1A0C7EACB46 /* SLAAWaaS.xcframework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SLOPAQUEAAWaaS";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		922A095F907F31BA045C7497888135C2 /* SLOPAQUEAAWaaS */ = {
+		55F13E4FDA798D8E05AB94B6980AF7C5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5696B24F26EE0687C017A2B2993E3F19 /* SLOPAQUEWaaS.swift */,
-				11287914FF3E53BBE7DCD9C962667275 /* Frameworks */,
-				77981177567C907DDC54854CC65C62FA /* Pod */,
-				846C06C2FA507C5870D8316327D2AD0D /* Support Files */,
+				6AD5198F520EE8FF70C684A07FAA0483 /* SLOPAQUEAAWaaS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6AD5198F520EE8FF70C684A07FAA0483 /* SLOPAQUEAAWaaS */ = {
+			isa = PBXGroup;
+			children = (
+				55E37CC0429495045F430541F8F6C56E /* Frameworks */,
+				773865AA9429AE6A0AC18F5239190C94 /* Pod */,
+				92CE080A99B6282FA38F15DC2DCE7D3B /* Support Files */,
 			);
 			name = SLOPAQUEAAWaaS;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		AC4EA8D1B80CA86D05CA9DDD9A546E99 /* Products */ = {
+		773865AA9429AE6A0AC18F5239190C94 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				196220068D101AE6B441F0CE6FB90596 /* Pods-SLOPAQUEAAWaaS_Example */,
-				62C3D78CC35838A56952C671B9E34033 /* Pods-SLOPAQUEAAWaaS_Tests */,
-				710F455BB7B6692C0050814BE05C64BD /* SLOPAQUEAAWaaS */,
+				B6A771BBC6ED83446AFB3755FF48C526 /* LICENSE */,
+				CF9CFB925A47473BFF3890A27195DCDE /* README.md */,
+				12FC20E197D816D263233FAF3F39CF06 /* SLOPAQUEAAWaaS.podspec */,
 			);
-			name = Products;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		92CE080A99B6282FA38F15DC2DCE7D3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB24AEDD34098D67914A219596F7653 /* SLOPAQUEAAWaaS-xcframeworks.sh */,
+				0B4FF907661B7885D30914BB69F2D37B /* SLOPAQUEAAWaaS.debug.xcconfig */,
+				F890287FFA74278736109079527088D9 /* SLOPAQUEAAWaaS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SLOPAQUEAAWaaS";
 			sourceTree = "<group>";
 		};
 		B0A385DD3EDAFFFFB3D2CAD4C3500762 /* Pods-SLOPAQUEAAWaaS_Tests */ = {
@@ -200,21 +195,13 @@
 			path = "Target Support Files/Pods-SLOPAQUEAAWaaS_Tests";
 			sourceTree = "<group>";
 		};
-		B17DC2F822C5AB7621DF6EEFE8C95502 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				922A095F907F31BA045C7497888135C2 /* SLOPAQUEAAWaaS */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B17DC2F822C5AB7621DF6EEFE8C95502 /* Development Pods */,
+				55F13E4FDA798D8E05AB94B6980AF7C5 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AC4EA8D1B80CA86D05CA9DDD9A546E99 /* Products */,
+				51872A80042849D020E743070F612C5B /* Products */,
 				3148610C364CA1D6BDE18DF68387BF5D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -254,14 +241,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCE61A88656EFCA8A3F780AF293C80E7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				685514CA94A4A43CA43355B79D8F5AB5 /* SLOPAQUEAAWaaS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -277,30 +256,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				21D19C397FEB357832C0570CB7C7F468 /* PBXTargetDependency */,
+				A81F6E6E7AD204CDD8CE9CBC191DC22B /* PBXTargetDependency */,
 			);
 			name = "Pods-SLOPAQUEAAWaaS_Example";
 			productName = Pods_SLOPAQUEAAWaaS_Example;
 			productReference = 196220068D101AE6B441F0CE6FB90596 /* Pods-SLOPAQUEAAWaaS_Example */;
-			productType = "com.apple.product-type.framework";
-		};
-		207E84CEE44587C86E980A8DDF7279AE /* SLOPAQUEAAWaaS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3AB111CBF726509B9715434F8278EE68 /* Build configuration list for PBXNativeTarget "SLOPAQUEAAWaaS" */;
-			buildPhases = (
-				FCE61A88656EFCA8A3F780AF293C80E7 /* Headers */,
-				5531FDD927AE809D878AAE12AEC45324 /* [CP] Copy XCFrameworks */,
-				8008691436315F818ACC329C68ABB5EF /* Sources */,
-				FC34EA05B11B4EA7B59B198F87A7A1A4 /* Frameworks */,
-				C656279828CB501698B880302FDEA763 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SLOPAQUEAAWaaS;
-			productName = SLOPAQUEAAWaaS;
-			productReference = 710F455BB7B6692C0050814BE05C64BD /* SLOPAQUEAAWaaS */;
 			productType = "com.apple.product-type.framework";
 		};
 		35CB2D6C58E826CDA797B76FF12035FD /* Pods-SLOPAQUEAAWaaS_Tests */ = {
@@ -315,7 +275,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7A34BC129B2EF9CF8C7C0F2049503EAB /* PBXTargetDependency */,
+				D7A2BCA788EE93148356E34A03B84800 /* PBXTargetDependency */,
 			);
 			name = "Pods-SLOPAQUEAAWaaS_Tests";
 			productName = Pods_SLOPAQUEAAWaaS_Tests;
@@ -342,7 +302,7 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = AC4EA8D1B80CA86D05CA9DDD9A546E99 /* Products */;
+			productRefGroup = 51872A80042849D020E743070F612C5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -361,13 +321,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C656279828CB501698B880302FDEA763 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CC31AE59396E3F2900011A9762387136 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,7 +331,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5531FDD927AE809D878AAE12AEC45324 /* [CP] Copy XCFrameworks */ = {
+		8077F8D0968E3A68F7CF6CC6CF6181B2 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,15 +360,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8008691436315F818ACC329C68ABB5EF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B1FD3BB2D4001B58C9831FED6A5CF9B4 /* SLOPAQUEAAWaaS-dummy.m in Sources */,
-				ADD2CB665704C74AD4CCDFAC62B4FC1E /* SLOPAQUEWaaS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AC333246BCD0375D4D72317B0B893754 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,17 +371,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		21D19C397FEB357832C0570CB7C7F468 /* PBXTargetDependency */ = {
+		A81F6E6E7AD204CDD8CE9CBC191DC22B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SLOPAQUEAAWaaS;
 			target = 207E84CEE44587C86E980A8DDF7279AE /* SLOPAQUEAAWaaS */;
-			targetProxy = 6E90B43DA9808DA730CFDD18AD77B3C0 /* PBXContainerItemProxy */;
+			targetProxy = 91B684FD067C764ABA23DFF71A41C571 /* PBXContainerItemProxy */;
 		};
-		7A34BC129B2EF9CF8C7C0F2049503EAB /* PBXTargetDependency */ = {
+		D7A2BCA788EE93148356E34A03B84800 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SLOPAQUEAAWaaS_Example";
 			target = 0ECDCE9E40D7B6CEBA0CABCA4A328E8E /* Pods-SLOPAQUEAAWaaS_Example */;
-			targetProxy = 483983FC6874639F06390D4250AAB50F /* PBXContainerItemProxy */;
+			targetProxy = E5AA61875D7D7EAFB66A9CB4463871A4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,6 +457,22 @@
 			};
 			name = Debug;
 		};
+		33DEDD81C1975508A28A6428200691CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F890287FFA74278736109079527088D9 /* SLOPAQUEAAWaaS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		393984FA68E5EA1BBAA7FF36C519385A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3EEA93DA1470D1C2B0FAC13AA7DDBE81 /* Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig */;
@@ -548,38 +508,18 @@
 			};
 			name = Debug;
 		};
-		6501D49E665DEF72D69031ADB5ED7571 /* Debug */ = {
+		6F0ADC1CD07CF1AECEB95B38D24AA204 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA427CB6EA305B5773955D3D9A9CA0E8 /* SLOPAQUEAAWaaS.debug.xcconfig */;
+			baseConfigurationReference = 0B4FF907661B7885D30914BB69F2D37B /* SLOPAQUEAAWaaS.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SLOPAQUEAAWaaS/SLOPAQUEAAWaaS-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SLOPAQUEAAWaaS/SLOPAQUEAAWaaS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SLOPAQUEAAWaaS/SLOPAQUEAAWaaS.modulemap";
-				PRODUCT_MODULE_NAME = SLOPAQUEAAWaaS;
-				PRODUCT_NAME = SLOPAQUEAAWaaS;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -747,54 +687,9 @@
 			};
 			name = Debug;
 		};
-		E7CB7516B67D4D04CF3C8786F3362002 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6514D0A650D5248D3F7017120D7782A /* SLOPAQUEAAWaaS.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/SLOPAQUEAAWaaS/SLOPAQUEAAWaaS-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/SLOPAQUEAAWaaS/SLOPAQUEAAWaaS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SLOPAQUEAAWaaS/SLOPAQUEAAWaaS.modulemap";
-				PRODUCT_MODULE_NAME = SLOPAQUEAAWaaS;
-				PRODUCT_NAME = SLOPAQUEAAWaaS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3AB111CBF726509B9715434F8278EE68 /* Build configuration list for PBXNativeTarget "SLOPAQUEAAWaaS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6501D49E665DEF72D69031ADB5ED7571 /* Debug */,
-				E7CB7516B67D4D04CF3C8786F3362002 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -818,6 +713,15 @@
 			buildConfigurations = (
 				393984FA68E5EA1BBAA7FF36C519385A /* Debug */,
 				0E56FCB3B63E140129E0DBF36216DE6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF7DADE6249CFBA2D4761ADD005BC5E /* Build configuration list for PBXAggregateTarget "SLOPAQUEAAWaaS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F0ADC1CD07CF1AECEB95B38D24AA204 /* Debug */,
+				33DEDD81C1975508A28A6428200691CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

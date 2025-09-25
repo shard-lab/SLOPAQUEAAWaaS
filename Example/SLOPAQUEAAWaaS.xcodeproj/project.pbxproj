@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FC295F79C8BDE8C1C032688 /* Pods_SLOPAQUEAAWaaS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0BC798DF010D162B4B4A602 /* Pods_SLOPAQUEAAWaaS_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		C02B076FD601F98FDA316B98 /* Pods_SLOPAQUEAAWaaS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3C3CFB01B509AD45AB699A /* Pods_SLOPAQUEAAWaaS_Example.framework */; };
+		BD6A1126A7D62B641465BDC9 /* Pods_SLOPAQUEAAWaaS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7D69CFBDE92AF10CB18265 /* Pods_SLOPAQUEAAWaaS_Example.framework */; };
+		E99C0E47B09FCE6800B06C43 /* Pods_SLOPAQUEAAWaaS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A529FA50237C76A95C8BB7 /* Pods_SLOPAQUEAAWaaS_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		26C1DEA8FB96CCF9B08A7D05 /* Pods-SLOPAQUEAAWaaS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOPAQUEAAWaaS_Example.release.xcconfig"; path = "Target Support Files/Pods-SLOPAQUEAAWaaS_Example/Pods-SLOPAQUEAAWaaS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		28F9200DFD43F9FE02D8F482 /* Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SLOPAQUEAAWaaS_Tests/Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5FF010E9510A74A77141337B /* Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig"; path = "Target Support Files/Pods-SLOPAQUEAAWaaS_Example/Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		11A529FA50237C76A95C8BB7 /* Pods_SLOPAQUEAAWaaS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLOPAQUEAAWaaS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* SLOPAQUEAAWaaS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLOPAQUEAAWaaS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -54,12 +52,14 @@
 		607FACE51AFB9204008FA782 /* SLOPAQUEAAWaaS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLOPAQUEAAWaaS_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6F7D69CFBDE92AF10CB18265 /* Pods_SLOPAQUEAAWaaS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLOPAQUEAAWaaS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CD8740FF89AA5449138592 /* SLOPAQUEAAWaaS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SLOPAQUEAAWaaS.podspec; path = ../SLOPAQUEAAWaaS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7911766618D709991DA06FB0 /* Pods-SLOPAQUEAAWaaS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOPAQUEAAWaaS_Example.release.xcconfig"; path = "Target Support Files/Pods-SLOPAQUEAAWaaS_Example/Pods-SLOPAQUEAAWaaS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7B1AB79B6B15E60E9792AB3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		945159DEFD71480BCEBC6083 /* Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig"; path = "Target Support Files/Pods-SLOPAQUEAAWaaS_Tests/Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D21951D51BF7283EA42444C /* Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig"; path = "Target Support Files/Pods-SLOPAQUEAAWaaS_Tests/Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BDA91296247B74036A4E4C57 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		ED3C3CFB01B509AD45AB699A /* Pods_SLOPAQUEAAWaaS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLOPAQUEAAWaaS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0BC798DF010D162B4B4A602 /* Pods_SLOPAQUEAAWaaS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLOPAQUEAAWaaS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8BD8D4B9985E29A0F57316E /* Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig"; path = "Target Support Files/Pods-SLOPAQUEAAWaaS_Example/Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F0FD082161A21B0AC50BD44A /* Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SLOPAQUEAAWaaS_Tests/Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C02B076FD601F98FDA316B98 /* Pods_SLOPAQUEAAWaaS_Example.framework in Frameworks */,
+				BD6A1126A7D62B641465BDC9 /* Pods_SLOPAQUEAAWaaS_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FC295F79C8BDE8C1C032688 /* Pods_SLOPAQUEAAWaaS_Tests.framework in Frameworks */,
+				E99C0E47B09FCE6800B06C43 /* Pods_SLOPAQUEAAWaaS_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,21 +85,12 @@
 		0456017F2668EAC20A277421 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5FF010E9510A74A77141337B /* Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig */,
-				26C1DEA8FB96CCF9B08A7D05 /* Pods-SLOPAQUEAAWaaS_Example.release.xcconfig */,
-				28F9200DFD43F9FE02D8F482 /* Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig */,
-				945159DEFD71480BCEBC6083 /* Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig */,
+				E8BD8D4B9985E29A0F57316E /* Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig */,
+				7911766618D709991DA06FB0 /* Pods-SLOPAQUEAAWaaS_Example.release.xcconfig */,
+				F0FD082161A21B0AC50BD44A /* Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig */,
+				9D21951D51BF7283EA42444C /* Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		3F445D30349AAC2E46D846ED /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ED3C3CFB01B509AD45AB699A /* Pods_SLOPAQUEAAWaaS_Example.framework */,
-				F0BC798DF010D162B4B4A602 /* Pods_SLOPAQUEAAWaaS_Tests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -110,7 +101,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				0456017F2668EAC20A277421 /* Pods */,
-				3F445D30349AAC2E46D846ED /* Frameworks */,
+				735BC4AE465D5993316E9A44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,6 +163,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		735BC4AE465D5993316E9A44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F7D69CFBDE92AF10CB18265 /* Pods_SLOPAQUEAAWaaS_Example.framework */,
+				11A529FA50237C76A95C8BB7 /* Pods_SLOPAQUEAAWaaS_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,12 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SLOPAQUEAAWaaS_Example" */;
 			buildPhases = (
-				A64A28183B4752BBC4997378 /* [CP] Check Pods Manifest.lock */,
+				1B08C959BBBEDA2DCBDE598A /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				40B27A7B2E822A86003465D8 /* Embed Frameworks */,
-				86001CE55BBE34B6208D848F /* [CP] Embed Pods Frameworks */,
+				D7F18E447F7416B122CA1600 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,7 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SLOPAQUEAAWaaS_Tests" */;
 			buildPhases = (
-				32585A0E9408B8BA301B3E4C /* [CP] Check Pods Manifest.lock */,
+				56B87846E4482533AD31B570 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -278,7 +278,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		32585A0E9408B8BA301B3E4C /* [CP] Check Pods Manifest.lock */ = {
+		1B08C959BBBEDA2DCBDE598A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLOPAQUEAAWaaS_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56B87846E4482533AD31B570 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -300,46 +322,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		86001CE55BBE34B6208D848F /* [CP] Embed Pods Frameworks */ = {
+		D7F18E447F7416B122CA1600 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SLOPAQUEAAWaaS_Example/Pods-SLOPAQUEAAWaaS_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SLOPAQUEAAWaaS/SLOPAQUEAAWaaS.framework",
 				"${PODS_XCFRAMEWORKS_BUILD_DIR}/SLOPAQUEAAWaaS/SLAAWaaS.framework/SLAAWaaS",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SLOPAQUEAAWaaS.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SLAAWaaS.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLOPAQUEAAWaaS_Example/Pods-SLOPAQUEAAWaaS_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A64A28183B4752BBC4997378 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SLOPAQUEAAWaaS_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -493,7 +491,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FF010E9510A74A77141337B /* Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig */;
+			baseConfigurationReference = E8BD8D4B9985E29A0F57316E /* Pods-SLOPAQUEAAWaaS_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C6ZQMUT5VV;
@@ -510,7 +508,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26C1DEA8FB96CCF9B08A7D05 /* Pods-SLOPAQUEAAWaaS_Example.release.xcconfig */;
+			baseConfigurationReference = 7911766618D709991DA06FB0 /* Pods-SLOPAQUEAAWaaS_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = C6ZQMUT5VV;
@@ -532,7 +530,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28F9200DFD43F9FE02D8F482 /* Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig */;
+			baseConfigurationReference = F0FD082161A21B0AC50BD44A /* Pods-SLOPAQUEAAWaaS_Tests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = C6ZQMUT5VV;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -556,7 +554,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 945159DEFD71480BCEBC6083 /* Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig */;
+			baseConfigurationReference = 9D21951D51BF7283EA42444C /* Pods-SLOPAQUEAAWaaS_Tests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = C6ZQMUT5VV;
 				FRAMEWORK_SEARCH_PATHS = (
